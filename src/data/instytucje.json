@@ -1,0 +1,86 @@
+{
+    "Fundacje": [
+      {
+        "id": 1,
+        "Nazwa": "Fundacja Dbam o Zdrowie",
+        "Cel i misja": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+        "Potrzeby": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+      },
+      {
+        "id": 2,
+        "Nazwa": "Fundacja Dla dzieci",
+        "Cel i misja": "Pomoc dzieciom z ubogich rodzin",
+        "Potrzeby": "ubrania, meble, zabawki"
+      },
+      {
+        "id": 3,
+        "Nazwa": "Fundacja Bez domu",
+        "Cel i misja": "Pomoc dla osób nie posiadających miejsca zamieszkania",
+        "Potrzeby": "ubrania, jedzenie ciepłe koce"
+      },
+      {
+        "id": 4,
+        "Nazwa": "Fundacja Pomoc",
+        "Cel i misja": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+        "Potrzeby": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+      },
+      {
+        "id": 5,
+        "Nazwa": "Fundacja Senior",
+        "Cel i misja": "Pomoc osobom starszym",
+        "Potrzeby": "zajęcia w grupach, animacje"
+      },
+      {
+        "id": 6,
+        "Nazwa": "Fundacja Wykluczeni społecznie",
+        "Cel i misja": "Pomoc dla osób żyjących poniżej progu ubóstwa",
+        "Potrzeby": "ubrania, produkty żywnościowe o długiej dacie ważności"
+      },
+      {
+        "id": 7,
+        "Nazwa": "Fundacja Bez barier",
+        "Cel i misja": "Pomoc osobom niepełnosprawynym",
+        "Potrzeby": "sprzęt specjalistyczny"
+      }
+    ],
+    "Organizacje": [
+      {
+        "id": 1,
+        "Nazwa": "Organizaja 1",
+        "Cel i misja": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+        "Potrzeby": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+      },
+      {
+        "id": 2,
+        "Nazwa": "Organizacja 2",
+        "Cel i misja": "Pomoc dzieciom z ubogich rodzin",
+        "Potrzeby": "ubrania, meble, zabawki"
+      },
+      {
+        "id": 3,
+        "Nazwa": "Organizacja 3",
+        "Cel i misja": "Pomoc dla osób nie posiadających miejsca zamieszkania",
+        "Potrzeby": "ubrania, jedzenie ciepłe koce"
+      }
+    ],
+    "Lokalne": [
+      {
+        "id": 1,
+        "Nazwa": "Lokalni 1",
+        "Cel i misja": "Pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+        "Potrzeby": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+      },
+      {
+        "id": 2,
+        "Nazwa": "Lokalini 2",
+        "Cel i misja": "Pomoc dzieciom z ubogich rodzin",
+        "Potrzeby": "ubrania, meble, zabawki"
+      },
+      {
+        "id": 3,
+        "Nazwa": "Lokalni 3",
+        "Cel i misja": "Pomoc dla osób nie posiadających miejsca zamieszkania",
+        "Potrzeby": "ubrania, jedzenie ciepłe koce"
+      }
+    ]
+  }
