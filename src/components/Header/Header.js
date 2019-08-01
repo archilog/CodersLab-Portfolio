@@ -45,67 +45,51 @@ const {variable} = props;
 
 function MenuMain() {
 
-// scrollToTop = () => {
-//     scroll.scrollToTop();
-// }
+    const options = {
+        activeClass : "active",
+        spy: true,
+        smooth: true,
+        offset: 0,
+        duration: 700
+    }
     return (
         <MenuListStyle>
             <Li secMenu>
                 <Link
-                    activeClass="active"
                     to="header"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={700}
+                    {...options}
                 >
                     Start
                 </Link>
             </Li>
             <Li secMenu>
                 <Link
-                    activeClass="active"
                     to="summary"
-                    spy={true}
-                    smooth={true}
-                    offset={-250}
-                    duration={700}
+                    {...options}
                 >
                     O co chodzi?
                 </Link>
             </Li>
             <Li secMenu>
                 <Link
-                    activeClass="active"
                     to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-150}
-                    duration={700}
+                    {...options}
                 >
                     O nas
                 </Link>
             </Li>
             <Li secMenu>
                 <Link
-                    activeClass="active"
                     to="info"
-                    spy={true}
-                    smooth={true}
-                    offset={-120}
-                    duration={700}
+                    {...options}
                 >
                     Fundacje i organizacje
                 </Link>
             </Li>
             <Li secMenu>
                 <Link
-                    activeClass="active"
                     to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-20}
-                    duration={700}
+                    {...options}
                 >
                     Kontakt
                 </Link>

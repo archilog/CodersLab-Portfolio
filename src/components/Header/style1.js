@@ -7,7 +7,7 @@ import Ornament from '../../images/ornament.png';
 
 // used in Header component
 export const HeaderWrapper = styled.section.attrs(props => ({
-    name: props.name
+    id: 'header'
 }))`
     width: ${wrapperWidth};
     height: 580px;

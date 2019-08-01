@@ -69,7 +69,9 @@ export const InfoDataContainer = styled.div`
     justify-content: space-between;
     border: 1px solid orange;
 `;
-export const InfoNumContainer = styled.ul`
+export const InfoNumContainer = styled.ul.attrs({
+    id: 'info'
+})`
     width: 10%;
     height: 5%;
     display: flex;

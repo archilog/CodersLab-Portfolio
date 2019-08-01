@@ -9,7 +9,9 @@ export const FooterBackground = styled.div`
     height: 580px;
     background: #f3f3f3 repeat-x;
 `;
-export const FooterWrapper = styled.section`
+export const FooterWrapper = styled.section.attrs({
+    id: 'contact'
+})`
     width: ${wrapperWidth};
     height: 580px;
     margin: 0 auto;

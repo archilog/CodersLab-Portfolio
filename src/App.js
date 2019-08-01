@@ -21,17 +21,17 @@ function App() {
     <React.Fragment>
       <Reset />
 
-        <Header id="header" />
+        <Header />
 
-        <Summary id="summary" summaryText={SummaryText} />
+        <Summary summaryText={SummaryText} />
 
-        <Instruction id="instruction"/>
+        <Instruction />
 
-        <About id="about" aboutText={AboutText} />
+        <About aboutText={AboutText} />
         
-        <Info id="info" infoText={InfoText} />
+        <Info infoText={InfoText} />
 
-        <Footer id="contact" />
+        <Footer />
 
       <GlobalStyle />
     </React.Fragment>
