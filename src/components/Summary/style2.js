@@ -4,7 +4,9 @@ import SummaryBg from './Bg.jpg';
 import { wrapperWidth, H1_fontSize, H5_fontSize, H6_fontSize } from '../../components/GlobalStyle'
 
 // used in Summary component
-export const SummaryBackground = styled.div`
+export const SummaryBackground = styled.div.attrs({
+    id: "summary"
+})`
     height: 240px;
     background: url(${SummaryBg}) repeat-x;
     background-size: 100% 100%;

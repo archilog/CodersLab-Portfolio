@@ -9,7 +9,9 @@ import Order from './orderCourier.png';
 import Help from './whoHelps.png';
 
 // used in Instruction component
-export const InstructionWrapper = styled.section`
+export const InstructionWrapper = styled.section.attrs({
+    id: 'instruction'
+})`
     width: ${wrapperWidth};
     height: 450px;
     margin: 0 auto;

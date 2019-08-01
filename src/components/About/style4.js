@@ -8,7 +8,9 @@ export const AboutBackground = styled.div`
     height: 500px;
     background: lightgray repeat-x;
 `;
-export const AboutWrapper = styled.section`
+export const AboutWrapper = styled.section.attrs({
+    id: 'about'
+})`
     width: ${wrapperWidth};
     height: 500px;
     margin: 0 auto;
